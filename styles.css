@@ -2,6 +2,15 @@
    PDF to JPG Converter - Styles
    ============================================ */
 
+/* Local Font Face */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400 800;
+    font-display: swap;
+    src: url('vendor/fonts/Inter-Variable.woff2') format('woff2');
+}
+
 /* CSS Custom Properties */
 :root {
     --primary: #2563eb;
