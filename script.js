@@ -24,10 +24,6 @@ const retryBtn = document.getElementById('retryBtn');
 let convertedImages = [];
 let currentFile = null;
 
-// ============================================
-// Event Listeners
-// ============================================
-
 // Upload area click
 uploadArea.addEventListener('click', () => {
     fileInput.click();
