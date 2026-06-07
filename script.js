@@ -94,11 +94,13 @@ document.querySelectorAll('.faq-question').forEach(button => {
         // Close all FAQ items
         document.querySelectorAll('.faq-item').forEach(faq => {
             faq.classList.remove('active');
+            faq.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
         });
 
         // Toggle current item
         if (!isActive) {
             item.classList.add('active');
+            button.setAttribute('aria-expanded', 'true');
         }
     });
 });

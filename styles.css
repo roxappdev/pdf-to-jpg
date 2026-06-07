@@ -21,8 +21,8 @@
     --success: #10b981;
     --error: #ef4444;
     --text-primary: #1e293b;
-    --text-secondary: #64748b;
-    --text-light: #94a3b8;
+    --text-secondary: #475569;
+    --text-light: #64748b;
     --bg-primary: #ffffff;
     --bg-secondary: #f8fafc;
     --bg-dark: #0f172a;
@@ -781,7 +781,7 @@ a:hover {
 }
 
 .footer-brand p {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.85);
     font-size: 0.9rem;
     line-height: 1.7;
     max-width: 320px;
@@ -796,7 +796,7 @@ a:hover {
 
 .footer-links a {
     display: block;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.85);
     font-size: 0.9rem;
     margin-bottom: 10px;
     transition: color var(--transition);
@@ -812,7 +812,7 @@ a:hover {
 }
 
 .footer-bottom p {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.7);
     font-size: 0.85rem;
 }
 
